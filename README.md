@@ -1,45 +1,70 @@
-# example-app-nodejs-backend-react-frontend
+# Getting Started with Create React App
 
-> This is an example app created for the blog post '[What is a good directory structure for a monorepo with a Node.js back end and React front end?](https://simonplend.com/what-is-a-good-directory-structure-for-a-monorepo-with-a-node-js-back-end-and-react-front-end/)'.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Requirements
+## Available Scripts
 
-- Node.js >= v12
+In the project directory, you can run:
 
-## Application structure
+### `npm start`
 
-- `client/` directory - React front end code.
-- `server/` directory - Node.js back end code.
-- `static/` directory - Compiled front end assets. Created by webpack when you run the
-command `npm run build`. The Node.js back end serves serves these assets using the
-[`express.static`](https://expressjs.com/en/starter/static-files.html#serving-static-files-in-express) middleware.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Usage
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-```bash
-# Install dependencies for front end and back end
-npm install
+### `npm test`
 
-# Build front end assets with webpack
-npm run build
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-# Run Node.js back end server
-npm start
-```
+### `npm run build`
 
-Load up http://localhost:3000 in your browser to view the example website.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Libraries and frameworks used
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- [Express](https://expressjs.com/) - "Fast, unopinionated, minimalist web framework for Node.js".
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- [React](https://reactjs.org/) - "A JavaScript library for building user interfaces".
+### `npm run eject`
 
-- [Webpack](https://www.npmjs.com/package/webpack) - A popular tool for building
-front end assets e.g. CSS and JavaScript.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-- [Sucrase](https://www.npmjs.com/package/sucrase) - A simpler and faster
-alternative to [Babel](https://babeljs.io/) which brings support
-for JSX, TypeScript, ES modules, and more to your client side and server side
-JavaScript.
-# react_node
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
